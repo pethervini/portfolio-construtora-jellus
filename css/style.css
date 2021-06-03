@@ -27,4 +27,10 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.titulo-empresas {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
