@@ -1,188 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Construtora Jellu's</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container d-flex justify-content-between">
-              <a class="navbar-brand" href="index.html">
-                  <img src="/assets/img/logo-jellus-2.jpg" width="100">
-              </a>
-              <button class="navbar-toggler d-flex d-lg-none d-xl-none d-xxl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Página Inicial</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container d-flex justify-content-between">
+          <a class="navbar-brand" href="index.html">
+            <img src="/assets/img/logo-jellus-2.jpg" width="100" />
+          </a>
+          <button
+            class="navbar-toggler d-flex d-lg-none d-xl-none d-xxl-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Página Inicial</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Obras
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="construcoesreformas.html"
+                      >Construções e Reformas</a
+                    >
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Obras
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="construcoesreformas.html">Construções e Reformas</a></li>
-                      <li><a class="dropdown-item" href="drywallsteelframe.html">Drywall e Steel Frame</a></li>
-                      <li><a class="dropdown-item" href="pinturasgeral.html">Pinturas em Geral</a></li>
-                      <li><a class="dropdown-item" href="revestimentos.html">Revestimentos e Pisos</a></li>
-                      <li><a class="dropdown-item" href="servicoeletrico.html">Serviços Elétricos</a></li>
-                      <li><a class="dropdown-item" href="servicohidraulicos.html">Serviços Hidráulicos</a></li>
-                    </ul>
+                  <li>
+                    <a class="dropdown-item" href="drywallsteelframe.html"
+                      >Drywall e Steel Frame</a
+                    >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="orcamentos.html">Orçamentos</a>
+                  <li>
+                    <a class="dropdown-item" href="pinturasgeral.html"
+                      >Pinturas em Geral</a
+                    >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="sobre.html">Sobre nós</a>
-                  </li>                 
+                  <li>
+                    <a class="dropdown-item" href="revestimentos.html"
+                      >Revestimentos e Pisos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="servicoeletrico.html"
+                      >Serviços Elétricos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="servicohidraulicos.html"
+                      >Serviços Hidráulicos</a
+                    >
+                  </li>
                 </ul>
-              </div>
-            </div>
-          </nav>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="orcamentos.html">Orçamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre nós</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <section class="banner">
+    <section class="banner"></section>
+
+
+    <section>
+      Nós temos a solução para você, Não perca tempo  
+  Sabemos o quanto trás preocupação e dor de cabeça a procura pelo melhor preço e qualidade para uma obra! Contratando a Construtora Jellu's, nós nos responsabilizamos pelo material e mão de obra de melhor qualidade. Você imagina e nós realizamos seu sonho!
     </section>
 
     <!-- Portfolio-->
-<section class="content-section" id="portfolio">
-  <div class="container px-4 px-lg-5">
-      <div class="content-section-heading text-center">
+    <section class="content-section" id="portfolio">
+      <div class="container px-4 px-lg-5">
+        <div class="content-section-heading text-center">
           <h3 class="text-secondary mb-0">Nossos</h3>
           <h2 class="mb-5">Serviços</h2>
+        </div>
+        <div class="row gx-0">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="/Portfolio/ConstrucoesReformas/">
+              <img
+                class="img-fluid"
+                src="assets/img/servicos/construcoes-ref.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="/Portfolio/ConstrucoesReformas/">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h3">Construções e Reforma</div>
+                  <div class="h2">
+                    Contamos com equipes especializadas em todas as áreas da
+                    construção civil. Sendo serviços industriais, comerciais ou
+                    residenciais. Conte com a Construtora Jellu's para realizar
+                    seu sonho ou resolver seus problemas.
+                  </div>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/servicos/cinza-escuro.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <img
+                class="img-fluid"
+                src="assets/img/servicos/pintura-casa.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h3">Pinturas em Geral</div>
+                  <div class="h2">
+                    Contamos com equipes especializadas em todas as áreas da
+                    construção civil. Sendo serviços industriais, comerciais ou
+                    residenciais. Conte com a Construtora Jellu's para realizar
+                    seu sonho ou resolver seus problemas.
+                  </div>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/servicos/fundo-servicos.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <img
+                class="img-fluid"
+                src="assets/img/servicos/revestimentos-pisos.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h3">Revestimentos e Pisos</div>
+                  <div class="h2">
+                    Contamos com equipes especializadas em todas as áreas da
+                    construção civil. Sendo serviços industriais, comerciais ou
+                    residenciais. Conte com a Construtora Jellu's para realizar
+                    seu sonho ou resolver seus problemas.
+                  </div>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/servicos/cinza-escuro.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <img
+                class="img-fluid"
+                src="assets/img/servicos/steel-frame.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h3">Drywall e Steel Frame</div>
+                  <div class="h2">
+                    Contamos com equipes especializadas em todas as áreas da
+                    construção civil. Sendo serviços industriais, comerciais ou
+                    residenciais. Conte com a Construtora Jellu's para realizar
+                    seu sonho ou resolver seus problemas.
+                  </div>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/servicos/fundo-servicos.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <img
+                class="img-fluid"
+                src="assets/img/servicos/hidraulica.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h3">Servicos Hidráulicos</div>
+                  <div class="h2">
+                    Contamos com equipes especializadas em todas as áreas da
+                    construção civil. Sendo serviços industriais, comerciais ou
+                    residenciais. Conte com a Construtora Jellu's para realizar
+                    seu sonho ou resolver seus problemas.
+                  </div>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/servicos/cinza-escuro.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="row gx-0">
-          <div class="col-lg-6">
-              <a class="portfolio-item" href="/Portfolio/ConstrucoesReformas/">
-                  <img class="img-fluid" src="assets/img/servicos/construcoes-ref.jpg" alt="..." />
-              </a>
-          </div>
-          <div class="col-lg-6">
-              <a class="portfolio-item" href="/Portfolio/ConstrucoesReformas/">
-                  <div class="caption">
-                      <div class="caption-content">
-                          <div class="h3">Construções e Reforma</div>
-                          <div class="h2">
-                              Contamos com equipes especializadas
-                              em todas as áreas da construção civil.
-                              Sendo serviços industriais, comerciais ou
-                              residenciais. Conte com a Construtora Jellu's
-                              para realizar seu sonho ou resolver seus
-                              problemas.
-                          </div>
-                      </div>
-                  </div>
-                  <img class="img-fluid" src="assets/img/servicos/cinza-escuro.jpg" alt="..." />
-              </a>
-          </div>
-
-          <div class="col-lg-6">
-              <a class="portfolio-item" href="#!">
-                  <img class="img-fluid" src="assets/img/servicos/pintura-casa.jpg" alt="..." />
-              </a>
-          </div>
-          <div class="col-lg-6">
-              <a class="portfolio-item" href="#!">
-                  <div class="caption">
-                      <div class="caption-content">
-                          <div class="h3">Pinturas em Geral</div>
-                          <div class="h2">
-                              Contamos com equipes especializadas
-                              em todas as áreas da construção civil.
-                              Sendo serviços industriais, comerciais ou
-                              residenciais. Conte com a Construtora Jellu's
-                              para realizar seu sonho ou resolver seus
-                              problemas.
-                          </div>
-                      </div>
-                  </div>
-                  <img class="img-fluid" src="assets/img/servicos/fundo-servicos.jpg" alt="..." />
-              </a>
-          </div>
-          <div class="col-lg-6">
-              <a class="portfolio-item" href="#!">
-                  <img class="img-fluid" src="assets/img/servicos/revestimentos-pisos.jpg" alt="..." />
-              </a>
-          </div>
-          <div class="col-lg-6">
-              <a class="portfolio-item" href="#!">
-                  <div class="caption">
-                      <div class="caption-content">
-                          <div class="h3">Revestimentos e Pisos</div>
-                          <div class="h2">
-                              Contamos com equipes especializadas
-                              em todas as áreas da construção civil.
-                              Sendo serviços industriais, comerciais ou
-                              residenciais. Conte com a Construtora Jellu's
-                              para realizar seu sonho ou resolver seus
-                              problemas.
-                          </div>
-                      </div>
-                  </div>
-                  <img class="img-fluid" src="assets/img/servicos/cinza-escuro.jpg" alt="..." />
-              </a>
-          </div>
-          <div class="col-lg-6">
-              <a class="portfolio-item" href="#!">
-                  <img class="img-fluid" src="assets/img/servicos/steel-frame.jpg" alt="..." />
-              </a>
-          </div>
-          <div class="col-lg-6">
-              <a class="portfolio-item" href="#!">
-                  <div class="caption">
-                      <div class="caption-content">
-                          <div class="h3">Drywall e Steel Frame</div>
-                          <div class="h2">
-                              Contamos com equipes especializadas
-                              em todas as áreas da construção civil.
-                              Sendo serviços industriais, comerciais ou
-                              residenciais. Conte com a Construtora Jellu's
-                              para realizar seu sonho ou resolver seus
-                              problemas.
-                          </div>
-                      </div>
-                  </div>
-                  <img class="img-fluid" src="assets/img/servicos/fundo-servicos.jpg" alt="..." />
-              </a>
-          </div>
-          <div class="col-lg-6">
-              <a class="portfolio-item" href="#!">                    
-                  <img class="img-fluid" src="assets/img/servicos/hidraulica.jpg" alt="..." />
-              </a>
-          </div>
-          <div class="col-lg-6">
-              <a class="portfolio-item" href="#!">
-                  <div class="caption">
-                      <div class="caption-content">
-                          <div class="h3">Servicos Hidráulicos</div>
-                          <div class="h2">
-                              Contamos com equipes especializadas
-                              em todas as áreas da construção civil.
-                              Sendo serviços industriais, comerciais ou
-                              residenciais. Conte com a Construtora Jellu's
-                              para realizar seu sonho ou resolver seus
-                              problemas.
-                          </div>
-                      </div>
-                  </div>
-                  <img class="img-fluid" src="assets/img/servicos/cinza-escuro.jpg" alt="..." />
-              </a>
-          </div>
-      </div>
-  </div>
-</section>
-
-
-
+    </section>
 
     <section>
       <div class="container">
@@ -204,11 +291,14 @@
         </div>
       </div>
     </section>
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
