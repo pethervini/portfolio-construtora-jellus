@@ -66,7 +66,7 @@ textarea {
 }
 
 .contact-info {
-  background-color: #E5E3E6;
+  background-color: #FFEB4D;
 }
 
 .circle {
@@ -247,7 +247,6 @@ textarea.input {
 
 .text {
   color: #333;
-  margin: 1.5rem 0 2rem 0;
 }
 
 .social-information {
@@ -426,5 +425,22 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
+}
+
+.contact form button {
+  background-color: #FFEB4D;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  -webkit-transition: all .75s ease-in-out;
+  transition: all .75s ease-in-out;
+  color: #000000;
+}
+
+.contact form button:hover {
+  background-color: #FFEB4D;
+  -webkit-transition: all .75s ease-in-out;
+  transition: all .75s ease-in-out;
+  color: #000000;
 }
 /*# sourceMappingURL=orcamento.css.map */

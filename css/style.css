@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+header {
+  text-transform: uppercase;
+}
+
 .navbar {
   background-color: #000000 !important;
 }
